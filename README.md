@@ -1,6 +1,6 @@
 Principal Applied AI Engineer with a Ph.D. in Applied Mathematics and experience building production AI/ML systems.
 
-My current technical focus is on large language models, Generative AI, PyTorch, and production AI systems, spanning model architecture and fine-tuning through inference, serving, evaluation, and performance analysis.
+My current technical focus is on large language models, Generative AI, PyTorch, and production AI systems, spanning LLM architecture, pretraining and fine-tuning, Agentic AI, inference and serving, evaluation, GPU-aware performance analysis, and system optimization.
 
 ## Current Focus
 
@@ -8,6 +8,7 @@ My current technical focus is on large language models, Generative AI, PyTorch, 
 - PyTorch and transformer architectures
 - Agentic AI and advanced RAG systems
 - LLM inference, serving, and evaluation
+- GPU-aware performance analysis and optimization
 - Production AI/ML systems
 
 ## Selected Work
