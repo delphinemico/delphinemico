@@ -1,18 +1,3 @@
-<!--
-**delphinemico/delphinemico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 # Delphine Mico
 
 Principal Applied AI Engineer with a Ph.D. in Applied Mathematics and experience building production AI/ML systems.
@@ -34,3 +19,7 @@ My current technical focus is on large language models, Generative AI, PyTorch, 
 Hands-on implementation of a GPT-style language model covering tokenization, attention, transformer blocks, pretraining, text generation, classification fine-tuning, and instruction fine-tuning.
 
 [View repository](https://github.com/delphinemico/build-llm-from-scratch-pytorch)
+
+## Beyond Tech
+
+Avid traveler and language enthusiast - I speak English, French, Spanish, and Portuguese, and have B2 proficiency in German.
