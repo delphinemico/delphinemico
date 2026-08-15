@@ -1,5 +1,3 @@
-# Delphine Mico
-
 Principal Applied AI Engineer with a Ph.D. in Applied Mathematics and experience building production AI/ML systems.
 
 My current technical focus is on large language models, Generative AI, PyTorch, and production AI systems, spanning model architecture and fine-tuning through inference, serving, evaluation, and performance analysis.
