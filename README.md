@@ -1,13 +1,8 @@
-Principal Applied AI Engineer with a Ph.D. in Applied Mathematics and experience building production AI/ML systems.
-
-My current technical focus is on large language models, Generative AI, PyTorch, and production AI systems, spanning LLM architecture, pretraining and fine-tuning, Agentic AI, inference and serving, evaluation, GPU-aware performance analysis, and system optimization.
-
 **Principal Applied AI Engineer | Agentic AI, GenAI & Production ML Systems**
 
 I am an Applied AI engineer with a Ph.D. in Applied Mathematics and experience building production AI/ML systems across Generative AI, machine learning, optimization, and large-scale applied engineering.
 
-My current technical focus is on building reliable LLM and Agentic AI systems — from model training and inference to retrieval, orchestration, evaluation, and production reliability.
-
+My current technical focus is on building reliable LLM and Agentic AI systems - from model training and inference to retrieval, orchestration, evaluation, and production reliability. Generative AI, PyTorch, and production My current technical focus is on building reliable LLM, Generative AI, and Agentic AI systems - from model architecture, pretraining, and fine-tuning in PyTorch to retrieval, orchestration, inference and serving, evaluation, GPU-aware performance analysis, production reliability, and system optimization.
 
 ## Current Focus
 
