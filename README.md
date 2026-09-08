@@ -6,32 +6,22 @@ My current technical focus is on building reliable LLM and Agentic AI systems - 
 
 ## Current Focus
 
-- **Agentic AI systems** — stateful workflows, deterministic routing, bounded agent loops, critique/revision, human approval, checkpointing, and safe side effects
-- **RAG and retrieval** — hybrid semantic + lexical retrieval, grounding, citation validation, and retrieval evaluation
-- **LLM evaluation** — component, trajectory, and end-to-end evaluation; quality, latency, token, and cost tradeoffs
-- **LLM training and adaptation** — PyTorch, transformer architecture, pretraining, fine-tuning, LoRA/PEFT
-- **LLM inference and serving** — vLLM, TensorRT-LLM, Triton, batching, KV cache, multi-GPU inference, and performance analysis
-- **Production AI/ML systems** — typed interfaces, validation, observability, failure handling, idempotency, and system optimization
+- **Agentic AI systems** - stateful workflows, deterministic routing, bounded agent loops, critique/revision, human approval, checkpointing, and safe side effects
+- **RAG and retrieval** - hybrid semantic + lexical retrieval, grounding, citation validation, and retrieval evaluation
+- **LLM evaluation** - component, trajectory, and end-to-end evaluation; quality, latency, token, and cost tradeoffs
+- **LLM training and adaptation** - PyTorch, transformer architecture, pretraining, fine-tuning, LoRA/PEFT
+- **LLM inference and serving** - vLLM, TensorRT-LLM, Triton, batching, KV cache, multi-GPU inference, and performance analysis
+- **Production AI/ML systems** - typed interfaces, validation, observability, failure handling, idempotency, and system optimization
 
 ## Selected Work
 
-### Retention Agent — Production-Oriented Agentic AI System
+### Retention Agent - Production-Oriented Agentic AI System
 
-A bounded, checkpointed Agentic AI workflow for customer-retention decisions in a synthetic banking domain.
+A bounded, checkpointed Agentic AI workflow for customer-retention decisions in a synthetic banking domain, combining deterministic application control with LLM judgment.
 
-The system combines deterministic application control with LLM judgment and includes:
+Built with LangGraph, hybrid MiniLM + TF-IDF retrieval, structured outputs, bounded critique/revision, human approval, resumable checkpointing, idempotency-aware side effects, and end-to-end evaluation with reproducible latency, cost, token, and routing benchmarks.
 
-- LangGraph-based stateful orchestration
-- hybrid MiniLM + TF-IDF policy retrieval
-- structured LLM outputs and validation
-- critique and bounded revision loops
-- human approval for sensitive actions
-- checkpointing and resumable execution
-- idempotency-aware simulated side effects
-- retrieval, trajectory, and end-to-end evaluation
-- reproducible latency, cost, token, and routing benchmarks
-
-The committed benchmark suite contains **100 end-to-end trajectories**. In the high-risk benchmark sample, routing planning to a smaller model preserved the observed **60% business-success rate** while reducing average cost per run by approximately **9%** relative to the all-large configuration.
+The benchmark suite includes 100 end-to-end trajectories and evaluates routing strategies across quality, latency, token usage, and cost. In the high-risk benchmark, routing planning to a smaller model reduced average cost per run by about 9% without degrading the observed outcome rate relative to the all-large configuration.
 
 [View Retention Agent repository](https://github.com/delphinemico/agentic-ai-retention-agent)
 
