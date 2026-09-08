@@ -9,7 +9,7 @@ My current technical focus is on building reliable LLM and Agentic AI systems - 
 - **Agentic AI systems** - stateful workflows, deterministic routing, bounded agent loops, critique/revision, human approval, checkpointing, and safe side effects
 - **RAG and retrieval** - hybrid semantic + lexical retrieval, grounding, citation validation, and retrieval evaluation
 - **LLM evaluation** - component, trajectory, and end-to-end evaluation; quality, latency, token, and cost tradeoffs
-- **LLM training and adaptation** - PyTorch, transformer architecture, pretraining, fine-tuning, LoRA/PEFT
+- **LLM training and adaptation** - PyTorch, transformer architecture, pretraining, fine-tuning
 - **LLM inference and serving** - vLLM, TensorRT-LLM, Triton, batching, KV cache, multi-GPU inference, and performance analysis
 - **Production AI/ML systems** - typed interfaces, validation, observability, failure handling, idempotency, and system optimization
 
