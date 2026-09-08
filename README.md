@@ -19,7 +19,7 @@ My current technical focus is on building reliable LLM and Agentic AI systems - 
 
 A bounded, checkpointed Agentic AI workflow for customer-retention decisions in a synthetic banking domain, combining deterministic application control with LLM judgment.
 
-Built with LangGraph, hybrid MiniLM + TF-IDF retrieval, structured outputs, bounded critique/revision, human approval, resumable checkpointing, idempotency-aware side effects, and end-to-end evaluation with reproducible latency, cost, token, and routing benchmarks.
+Built with LangGraph, hybrid search (dense semantic embeddings (MiniLM) with sparse keyword matching (TF-IDF)), structured outputs, bounded critique/revision, human approval, resumable checkpointing, idempotency-aware side effects, and end-to-end evaluation with reproducible latency, cost, token, and routing benchmarks.
 
 The benchmark suite includes 100 end-to-end trajectories and evaluates routing strategies across quality, latency, token usage, and cost. In the high-risk benchmark, routing planning to a smaller model reduced average cost per run by about 9% without degrading the observed outcome rate relative to the all-large configuration.
 
