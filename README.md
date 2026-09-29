@@ -1,6 +1,6 @@
 **Principal Applied AI Engineer | Agentic AI, LLM & Production ML Systems**
 
-I am an Applied AI engineer and Scientist with a Ph.D. in Applied Mathematics and 13 years of experience building production AI/ML systems across Generative AI, machine learning, optimization, and large-scale applied engineering.
+I am an Applied AI engineer and scientist with a Ph.D. in Applied Mathematics and 13+ years of experience building production AI/ML systems across Generative AI, machine learning, optimization, and large-scale applied engineering systems, including work at Microsoft and Intel.
 
 My current technical focus is on building reliable LLM, Generative AI, and Agentic AI systems - from model architecture, pretraining, and fine-tuning in PyTorch to retrieval, orchestration, inference and serving, evaluation, GPU-aware performance analysis, production reliability, and system optimization.
 
@@ -29,7 +29,7 @@ The benchmark suite includes 100 end-to-end trajectories and evaluates routing s
 
 ### Building a Large Language Model from Scratch with PyTorch
 
-Hands-on implementation of a GPT-style language model covering tokenization, attention, transformer blocks, pretraining, text generation, classification fine-tuning, and instruction fine-tuning.
+End-to-end PyTorch implementation of a decoder-only GPT-style language model, including tokenization, masked multi-head attention, transformer blocks, pretraining, autoregressive generation, pretrained-weight loading, classification and instruction fine-tuning, and distributed training with torchrun on two NVIDIA L4 GPUs.
 
 [View repository](https://github.com/delphinemico/build-llm-from-scratch-pytorch)
 
