@@ -1,4 +1,4 @@
-**Principal Applied AI Engineer | Agentic AI, GenAI & Production ML Systems**
+**Principal Applied AI Engineer | Agentic AI, LLM & Production ML Systems**
 
 I am an Applied AI engineer and Scientist with a Ph.D. in Applied Mathematics and experience building production AI/ML systems across Generative AI, machine learning, optimization, and large-scale applied engineering.
 
@@ -10,7 +10,7 @@ My current technical focus is on building reliable LLM, Generative AI, and Agent
 - **RAG and retrieval** - hybrid semantic + lexical retrieval, grounding, citation validation, and retrieval evaluation
 - **LLM evaluation** - component, trajectory, and end-to-end evaluation; quality, latency, token, and cost tradeoffs
 - **LLM training and adaptation** - PyTorch, transformer architecture, pretraining, fine-tuning
-- **LLM inference and serving** - vLLM, TensorRT-LLM, Triton, batching, KV cache, multi-GPU inference, and performance analysis
+- **LLM inference and serving** - vLLM benchmarking, prefill and decode characterization, batching, KV and prefix caching, latency-throughput tradeoffs, and GPU-aware performance analysis
 - **Production AI/ML systems** - typed interfaces, validation, observability, failure handling, idempotency, and system optimization
 
 ## Selected Work
@@ -32,6 +32,18 @@ The benchmark suite includes 100 end-to-end trajectories and evaluates routing s
 Hands-on implementation of a GPT-style language model covering tokenization, attention, transformer blocks, pretraining, text generation, classification fine-tuning, and instruction fine-tuning.
 
 [View repository](https://github.com/delphinemico/build-llm-from-scratch-pytorch)
+
+---
+
+### LLM Inference Performance - Single-GPU vLLM Benchmarking
+
+Controlled vLLM performance benchmarking on an NVIDIA L40S using Qwen2.5-7B-Instruct, covering concurrency scaling, prefill and decode behavior, automatic prefix caching, and latency-throughput tradeoffs.
+
+Includes reproducible benchmark scripts, raw results, figures, and engineering analysis. In the reported workloads, output-token throughput scaled from 49.0 to 567.6 tokens/s, while a prewarmed prefix-cache condition reduced median time to first token by 64.5%.
+
+[View LLM Inference Performance repository](https://github.com/delphinemico/llm-inference-performance)
+
+---
 
 ## Beyond Tech
 
