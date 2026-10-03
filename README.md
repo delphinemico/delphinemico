@@ -10,7 +10,7 @@ My current technical focus is on building reliable LLM, Generative AI, and Agent
 - **RAG and retrieval** - hybrid semantic + lexical retrieval, grounding, citation validation, and retrieval evaluation
 - **LLM evaluation** - component, trajectory, and end-to-end evaluation; quality, latency, token, and cost tradeoffs
 - **LLM training and adaptation** - PyTorch, transformer architecture, pretraining, fine-tuning
-- **LLM inference and serving** - vLLM benchmarking, prefill and decode characterization, batching, KV and prefix caching, latency-throughput tradeoffs, and GPU-aware performance analysis
+- **LLM inference and serving** - vLLM, SGLang, TensorRT-LLM, prefill and decode characterization, KV and prefix caching, latency-throughput tradeoffs, and GPU runtime analysis with NVIDIA Nsight Systems
 - **Production AI/ML systems** - typed interfaces, validation, observability, failure handling, idempotency, and system optimization
 
 ## Selected Work
@@ -35,11 +35,11 @@ End-to-end PyTorch implementation of a decoder-only GPT-style language model, in
 
 ---
 
-### LLM Inference Performance - Single-GPU vLLM Benchmarking
+### LLM Inference Performance - Serving Engines and GPU Runtime Analysis
 
-Controlled vLLM performance benchmarking on an NVIDIA L40S using Qwen2.5-7B-Instruct, covering concurrency scaling, prefill and decode behavior, automatic prefix caching, and latency-throughput tradeoffs.
+Controlled single-GPU study of LLM inference behavior on an NVIDIA L40S using Qwen2.5-7B-Instruct, covering vLLM concurrency, prefill, decode, and prefix caching; workload-controlled comparison of vLLM, SGLang, and TensorRT-LLM; and GPU runtime profiling with NVIDIA Nsight Systems.
 
-Includes reproducible benchmark scripts, raw results, figures, and engineering analysis. In the reported workloads, output-token throughput scaled from 49.0 to 567.6 tokens/s, while a prewarmed prefix-cache condition reduced median time to first token by 64.5%.
+Includes reproducible benchmark scripts, raw results, and evidence-bounded analysis connecting application-level latency and throughput to serving-engine workload fit and the distinct GPU execution patterns of prefill and autoregressive decode.
 
 [View LLM Inference Performance repository](https://github.com/delphinemico/llm-inference-performance)
 
